@@ -2,7 +2,8 @@ Disciplina: Computação Gráfica
 Alunos: Guilherme Machado e Douglas França
 
 # Etapa 1 - Diagrama
-
+<pre> 
+```text
 ┌──────────────────────────────────────────────┐
 │                  TELA                        │
 │ Origem inicial: (0,0) no canto superior      │
@@ -40,7 +41,7 @@ Alunos: Guilherme Machado e Douglas França
 │              LUA j do planeta i              │
 │ - Orbita o planeta (não o Sol diretamente)   │
 └──────────────────────────────────────────────┘
-
+```</pre>
 # Etapa 2 - Explicação do fluxo de atualização
 
 ### Planetas
