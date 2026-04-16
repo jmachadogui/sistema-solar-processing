@@ -6,7 +6,9 @@ void setup() {
 
   // The planet objects are initialized using the counter variable
   for (int i = 0; i < planets.length; i++ ) {
-    planets[i] = new Planet(60 + i*36, 24);
+    int moonsAmount = 1;
+    if(i==2) moonsAmount = 2;
+    planets[i] = new Planet(60 + i*36, 24, moonsAmount);
   }
 }
 
