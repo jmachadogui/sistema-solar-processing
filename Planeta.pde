@@ -24,7 +24,13 @@ class Planet {
   void instantiateMoons(int quantity){
     for(int i = 0; i < quantity; i++){
       float distance = random(20, 46);
-      moons[i] = new Moon(distance, 5);
+      float diameter = random(3, 9);
+       color moonColor = color(
+        random(256),
+        random(256),
+        random(256)
+      );
+      moons[i] = new Moon(distance, diameter, moonColor);
     }
   }
   
